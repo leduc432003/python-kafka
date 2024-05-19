@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.three-lines {
+  display: -webkit-box;
+  max-width: 400px;
+  overflow-y: auto;
+  height: 100px;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
